@@ -1,5 +1,41 @@
+html {
+  font-size : 1em;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #001333;
+}
+
+body {
+  width : 600px;
+  margin : 0 auto;
+  background-color: #cccccc;
+  padding : 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0px;
+  padding :0 0;
+  color : #FFFFFF;
+  text-shadow : 0.2em 0.2em 3px black;
+}
+li {
+  width : 500px;    
+  border : 1px solid black;
+  line-height: 2;
+}
+
+h2[type='text'] {
+  color : blue;
+}
+
+img {
+  width : 300px;
+  display : block;
+  margin : 0 auto;
+}
+
 p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
-  }
+  font-size: 2em;
+}
