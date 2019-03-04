@@ -3,7 +3,7 @@ body {
 
 .main {
   position: absolute;
-  height: 200%;
+  height: 500%;
   width: 100%;
   background: linear-gradient(#1c4fa1, #1c5cbe 40%, #429df6 70%, #b1eaff);
   background: -webkit-linear-gradient(#1c4fa1, #1c5cbe 40%, #429df6 70%, #b1eaff);
@@ -44,9 +44,14 @@ a {
 .omikuji:hover {
   color: #429df6; }
 .treeburning:hover{
-  color: #f69d49;
+  color: #f69d49; }
+.circletrack:hover {
+  color: red;
 }
 
+img {
+  border : 1px groove
+}
 .screen {
   position: absolute;
   width: 80%;
