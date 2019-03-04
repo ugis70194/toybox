@@ -1,0 +1,15 @@
+.tree {
+    display : inline-block;
+    overflow: hidden;
+    width : 100px;
+    height: 100px;
+    margin : 0;
+    font-size : 80px;
+    cursor : url('./taimatsu.png') 48 48,auto;
+}
+p {
+    margin : 0;
+}
+button {
+    margin-bottom : 50px;
+}
